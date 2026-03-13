@@ -5,8 +5,10 @@
 ![Plotly](https://img.shields.io/badge/Plotly-6.6-brightgreen?logo=plotly)
 ![Status](https://img.shields.io/badge/Estado-Completo-success)
 
-**Autor:** Jonathan Monserrat
-**Stack:** Python · pandas · NumPy · Matplotlib · Seaborn · Plotly  
+**Autor:** JM
+
+**Stack:** Python · pandas · NumPy · Matplotlib · Seaborn · Plotly
+
 **Datos:** 3 datasets · 3.035 transacciones · 90 campañas · 567 clientes
 
 ---
