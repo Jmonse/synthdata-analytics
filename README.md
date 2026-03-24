@@ -30,7 +30,7 @@ Carga → Diagnóstico de calidad → Limpieza documentada → EDA
 ## 🗂️ Estructura del proyecto
 
 ```
-Proyecto-SynthData-Analytics/
+synthdata-analytics/
 │
 ├── SynthData_Analytics.ipynb     # Notebook principal con el análisis completo
 ├── dashboard_interactivo.html    # Dashboard interactivo (Plotly)
@@ -81,14 +81,15 @@ Proyecto-SynthData-Analytics/
 
 ## 🛠️ Stack tecnológico
 
-| Librería     | Uso                                            |
-| ------------ | ---------------------------------------------- |
-| `pandas 3.0` | Manipulación y análisis de datos               |
-| `numpy`      | Operaciones numéricas                          |
-| `matplotlib` | Visualizaciones estáticas                      |
-| `seaborn`    | Visualización estadística (boxplots, heatmaps) |
-| `plotly`     | Dashboard interactivo                          |
-| `openpyxl`   | Compatibilidad con archivos Excel              |
+| Librería           | Uso                                            |
+| ------------------ | ---------------------------------------------- |
+| `pandas 3.0`       | Manipulación y análisis de datos               |
+| `numpy`            | Operaciones numéricas                          |
+| `matplotlib`       | Visualizaciones estáticas                      |
+| `seaborn`          | Visualización estadística (boxplots, heatmaps) |
+| `plotly`           | Dashboard interactivo                          |
+| `openpyxl`         | Compatibilidad con archivos Excel              |
+| `Power BI Desktop` | Dashboard ejecutivo interactivo                |
 
 ---
 
@@ -115,6 +116,10 @@ jupyter notebook SynthData_Analytics.ipynb
 
 ---
 
+## 📊 Dashboard de Power BI
+
+El proyecto incluye un dashboard ejecutivo interactivo construido en Power BI Desktop con segmentadores por categoría y mes. El archivo `.pbix` no está incluido en el repositorio por su tamaño, pero se puede regenerar conectando Power BI a los CSV del proyecto.
+
 ## 📬 Contacto
 
-**JM** — [@Jmonse](https://github.com/Jmonse)
+**Jonathan Monserrat** — [@Jmonse](https://github.com/Jmonse)
