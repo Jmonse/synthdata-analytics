@@ -1,22 +1,6 @@
-# Entorno virtual
 .venv/
-
-# Python
+.idea/
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-
-# Jupyter
 .ipynb_checkpoints/
-
-# VSCode
-.vscode/
-
-# Sistema
 .DS_Store
 Thumbs.db
-
-# Power BI
-*.pbix

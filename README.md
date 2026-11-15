@@ -32,7 +32,7 @@ Carga → Diagnóstico de calidad → Limpieza documentada → EDA
 ```
 synthdata-analytics/
 │
-├── SynthData_Analytics.ipynb     # Notebook principal con el análisis completo
+├── notebooks/01_SynthData_Analytics.ipynb     # Notebook principal con el análisis completo
 ├── dashboard_interactivo.html    # Dashboard interactivo (Plotly)
 │
 ├── ventas.csv                    # 3.035 transacciones de ventas (2024)
@@ -110,7 +110,7 @@ source .venv/bin/activate     # Mac/Linux
 pip install pandas matplotlib seaborn plotly openpyxl nbformat
 
 # 4. Abrir el notebook
-jupyter notebook SynthData_Analytics.ipynb
+jupyter notebook notebooks/01_SynthData_Analytics.ipynb
 # o abrirlo directamente en VSCode
 ```
 
