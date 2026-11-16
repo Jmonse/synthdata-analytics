@@ -27,7 +27,7 @@ Carga → Diagnóstico de calidad → Limpieza documentada → EDA
 ## 🗂️ Estructura del Proyecto
 
 ```text
-SynthData/
+synthdata-analytics/
 ├── dashboard/
 │   └── SynthData_Dashboard.pbix       # Dashboard ejecutivo interactivo (Power BI)
 ├── data/
@@ -63,6 +63,8 @@ SynthData/
 * **Sin correlación precio-cantidad ($r = -0,002$):** El precio unitario no penaliza el volumen comprado por transacción.
 * **Estacionalidad semestral:** El primer semestre concentra los picos de facturación, con desaceleración sostenida entre junio y octubre.
 * **Perfil demográfico:** El segmento de 46 a 60 años registra el mayor ingreso promedio declarado (~$36.500).
+* **Atribución de campañas de marketing:** Se atribuyeron $381.469 en ingresos dentro de ventanas activas (prorrateando campañas simultáneas); **Email** lidera el retorno bruto (ROAS 968,3x), aunque los bajos costos registrados exigen incorporar CAC y conversión para decidir presupuesto.
+* **Visualización multi-herramienta:** Además del dashboard interactivo en Plotly (`outputs/dashboard_interactivo.html`), el proyecto incluye un tablero ejecutivo en Power BI Desktop (`dashboard/SynthData_Dashboard.pbix`).
 
 ---
 
@@ -70,8 +72,8 @@ SynthData/
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/Jmonse/SynthData.git
-cd SynthData
+git clone https://github.com/Jmonse/synthdata-analytics.git
+cd synthdata-analytics
 
 # 2. Crear y activar entorno virtual
 python -m venv .venv
