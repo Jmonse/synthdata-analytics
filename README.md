@@ -1,7 +1,7 @@
 # 📊 Análisis de Ventas y Marketing — SynthData 2024
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
-![pandas](https://img.shields.io/badge/pandas-3.0-lightgrey?logo=pandas)
+![pandas](https://img.shields.io/badge/pandas-3.1-lightgrey?logo=pandas)
 ![Plotly](https://img.shields.io/badge/Plotly-6.6-brightgreen?logo=plotly)
 ![Status](https://img.shields.io/badge/Estado-Completo-success)
 
